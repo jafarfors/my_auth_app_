@@ -88,7 +88,7 @@ fun LoginScreen(
             textStyle = androidx.compose.ui.text.TextStyle(
                 color = AuthWhite,
                 fontSize = 18.sp,
-                fontWeight = androidx.compose.ui.text.font.FontWeight.Medium),a
+                fontWeight = androidx.compose.ui.text.font.FontWeight.Medium)
             isError = state.emailError != null,
             singleLine = true
         )
